@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:prt0="urn:DBAWsd/DBAVi" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="urn:DBAWsd/Config1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="urn:DBAWsd/DBAVi" location="https://cloud04ap.nubilum.nl:8443/DBA/Config1?wsdl=interface&amp;style=document" />
+  <wsdl:types />
+  <wsdl:binding name="Config1Binding" type="prt0:DBAVi">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="select">
+      <soap:operation soapAction="" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

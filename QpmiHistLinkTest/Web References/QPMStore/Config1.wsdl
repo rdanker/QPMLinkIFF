@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="urn:RAWsd/RAVi" xmlns:ns0="urn:RAVi" targetNamespace="urn:RAWsd/RAVi" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="urn:pl.com.bcc.ws.classes" xmlns:s0="urn:java/lang" elementFormDefault="qualified" targetNamespace="urn:pl.com.bcc.ws.classes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="urn:java/lang" />
+      <xs:complexType name="PoiProValWrapper">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:PsPropValWrapper">
+            <xs:sequence>
+              <xs:element name="disabled" type="xs:boolean" />
+              <xs:element name="tsNameId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="PsPropValWrapper">
+        <xs:sequence>
+          <xs:element name="mandant" type="xs:int" />
+          <xs:element name="propNameId" type="xs:int" />
+          <xs:element minOccurs="0" name="propVal" nillable="true" type="s0:ArrayOfString" />
+          <xs:element minOccurs="0" name="psDateTime" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sampleNum" nillable="true" type="s0:ArrayOfint" />
+          <xs:element name="tsSetNameId" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfPoiProValWrapper">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="PoiProValWrapper" nillable="true" type="tns:PoiProValWrapper" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfPsPropValWrapper">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="PsPropValWrapper" nillable="true" type="tns:PsPropValWrapper" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema xmlns:tns="urn:RAVi" xmlns:s0="urn:pl.com.bcc.ws.classes" elementFormDefault="qualified" targetNamespace="urn:RAVi" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="urn:pl.com.bcc.ws.classes" />
+      <xs:element name="addPsPropVal">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="data" nillable="true" type="s0:ArrayOfPsPropValWrapper" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="addPsPropValResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="delete">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="from" nillable="true" type="xs:string" />
+            <xs:element name="to" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="addPoiProVal">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="data" nillable="true" type="s0:ArrayOfPoiProValWrapper" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="addPoiProValResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="modifyPoiProVal">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="data" nillable="true" type="s0:ArrayOfPoiProValWrapper" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="modifyPoiProValResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="modifyPsPropVal">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="data" nillable="true" type="s0:ArrayOfPsPropValWrapper" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="modifyPsPropValResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateTextVar">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="propId" type="xs:int" />
+            <xs:element name="tsId" type="xs:int" />
+            <xs:element name="datetime" nillable="true" type="xs:string" />
+            <xs:element name="value" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateTextVarResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns:tns="urn:java/lang" elementFormDefault="qualified" targetNamespace="urn:java/lang" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="ArrayOfString">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="String" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfint">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="int" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="addPsPropValIn_doc">
+    <wsdl:part name="parameters" element="ns0:addPsPropVal" />
+  </wsdl:message>
+  <wsdl:message name="addPsPropValOut_doc">
+    <wsdl:part name="parameters" element="ns0:addPsPropValResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteIn_doc">
+    <wsdl:part name="parameters" element="ns0:delete" />
+  </wsdl:message>
+  <wsdl:message name="deleteOut_doc">
+    <wsdl:part name="parameters" element="ns0:deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="addPoiProValIn_doc">
+    <wsdl:part name="parameters" element="ns0:addPoiProVal" />
+  </wsdl:message>
+  <wsdl:message name="addPoiProValOut_doc">
+    <wsdl:part name="parameters" element="ns0:addPoiProValResponse" />
+  </wsdl:message>
+  <wsdl:message name="modifyPoiProValIn_doc">
+    <wsdl:part name="parameters" element="ns0:modifyPoiProVal" />
+  </wsdl:message>
+  <wsdl:message name="modifyPoiProValOut_doc">
+    <wsdl:part name="parameters" element="ns0:modifyPoiProValResponse" />
+  </wsdl:message>
+  <wsdl:message name="modifyPsPropValIn_doc">
+    <wsdl:part name="parameters" element="ns0:modifyPsPropVal" />
+  </wsdl:message>
+  <wsdl:message name="modifyPsPropValOut_doc">
+    <wsdl:part name="parameters" element="ns0:modifyPsPropValResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateTextVarIn_doc">
+    <wsdl:part name="parameters" element="ns0:updateTextVar" />
+  </wsdl:message>
+  <wsdl:message name="updateTextVarOut_doc">
+    <wsdl:part name="parameters" element="ns0:updateTextVarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RAVi">
+    <wsdl:operation name="addPsPropVal">
+      <wsdl:input message="tns:addPsPropValIn_doc" />
+      <wsdl:output message="tns:addPsPropValOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input message="tns:deleteIn_doc" />
+      <wsdl:output message="tns:deleteOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="addPoiProVal">
+      <wsdl:input message="tns:addPoiProValIn_doc" />
+      <wsdl:output message="tns:addPoiProValOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="modifyPoiProVal">
+      <wsdl:input message="tns:modifyPoiProValIn_doc" />
+      <wsdl:output message="tns:modifyPoiProValOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="modifyPsPropVal">
+      <wsdl:input message="tns:modifyPsPropValIn_doc" />
+      <wsdl:output message="tns:modifyPsPropValOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="updateTextVar">
+      <wsdl:input message="tns:updateTextVarIn_doc" />
+      <wsdl:output message="tns:updateTextVarOut_doc" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

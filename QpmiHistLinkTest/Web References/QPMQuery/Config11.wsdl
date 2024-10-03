@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="urn:DBAWsd/DBAVi" xmlns:ns0="urn:DBAVi" targetNamespace="urn:DBAWsd/DBAVi" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="urn:java.lang" elementFormDefault="qualified" targetNamespace="urn:java.lang" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="ArrayOfObject2D">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Object" nillable="true" type="tns:ArrayOfObject" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Object" nillable="true" type="xs:anyType" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema xmlns:tns="urn:DBAVi" xmlns:s0="urn:java.lang" elementFormDefault="qualified" targetNamespace="urn:DBAVi" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="urn:java.lang" />
+      <xs:element name="select">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="sql" nillable="true" type="xs:string" />
+            <xs:element name="params" nillable="true" type="s0:ArrayOfObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="selectResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="s0:ArrayOfObject2D" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="selectIn_doc">
+    <wsdl:part name="parameters" element="ns0:select" />
+  </wsdl:message>
+  <wsdl:message name="selectOut_doc">
+    <wsdl:part name="parameters" element="ns0:selectResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DBAVi">
+    <wsdl:operation name="select">
+      <wsdl:input message="tns:selectIn_doc" />
+      <wsdl:output message="tns:selectOut_doc" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

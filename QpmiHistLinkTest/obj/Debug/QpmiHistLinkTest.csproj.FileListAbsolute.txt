@@ -1,0 +1,21 @@
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmOpcWinFormsApplTestSol\QpmiHistLinkTest\obj\Debug\QpmOpcWinFormsApplTest.exe
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmOpcWinFormsApplTestSol\QpmiHistLinkTest\obj\Debug\QpmOpcWinFormsApplTest.pdb
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\ResolveAssemblyReference.cache
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.csproj.GenerateResource.Cache
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.Form1.resources
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.Properties.Resources.resources
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\bin\Debug\QpmiHistLinkTest.exe
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\bin\Debug\QpmiHistLinkTest.pdb
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.exe
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.pdb
+C:\BU\QPMdev\DevTools\QpmiHistLinkTestAll\QpmiHistLinkTestSol\QpmiHistLinkTest\bin\Debug\QpmiHistLinkTest.exe.config
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\bin\Debug\QpmiHistLinkTest.exe.config
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\bin\Debug\QpmiHistLinkTest.exe
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\bin\Debug\QpmiHistLinkTest.pdb
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.csprojAssemblyReference.cache
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.Form1.resources
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.Properties.Resources.resources
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.csproj.GenerateResource.cache
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.csproj.CoreCompileInputs.cache
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.exe
+F:\HAIQPM\QpmiHistLinkTestSol.05 (002)\QpmiHistLinkTestSol\QpmiHistLinkTest\obj\Debug\QpmiHistLinkTest.pdb

@@ -1,0 +1,10 @@
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\obj\Release\ResolveAssemblyReference.cache
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\obj\Release\QpmOpcWinFormsApplTest.Form1.resources
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\obj\Release\QpmOpcWinFormsApplTest.Properties.Resources.resources
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\obj\Release\QpmOpcWinFormsApplTest.csproj.GenerateResource.Cache
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\bin\Release\QpmOpcWinFormsApplTest.exe
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\bin\Release\QpmOpcWinFormsApplTest.pdb
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\bin\Release\OpcDaNet.dll
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\bin\Release\OpcDaNet.xml
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\obj\Release\QpmOpcWinFormsApplTest.exe
+C:\BU\QPMdev\DevTools\QpmOpcServerTestAll\QpmOpcWinFormsApplTestSol\QpmOpcWinFormsApplTest\obj\Release\QpmOpcWinFormsApplTest.pdb

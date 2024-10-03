@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://cloud04ap.nubilum.nl:8443/Spec/Config1?wsdl=interface&amp;style=document" filename="Config1.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://cloud04ap.nubilum.nl:8443/Spec/Config1?wsdl=binding&amp;style=document" filename="Config10.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://cloud04.nubilum.nl:8443/Spec/Config1?wsdl" filename="Config11.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="urn:DBAWsd" xmlns:p0="urn:DBAWsd/Config1" targetNamespace="urn:DBAWsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="urn:DBAWsd/Config1" location="https://cloud04ap.nubilum.nl:8443/DBA/Config1?wsdl=binding&amp;style=document" />
+  <wsdl:types />
+  <wsdl:service name="DBA">
+    <wsdl:port name="Config1Port" binding="p0:Config1Binding">
+      <address location="https://cloud04.nubilum.nl:8443/DBA/Config1?style=document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

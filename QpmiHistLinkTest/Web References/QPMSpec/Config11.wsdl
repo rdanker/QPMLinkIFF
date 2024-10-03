@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="urn:SpecWsd" xmlns:p0="urn:SpecWsd/Config1" targetNamespace="urn:SpecWsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="urn:SpecWsd/Config1" location="https://cloud04ap.nubilum.nl:8443/Spec/Config1?wsdl=binding&amp;style=document" />
+  <wsdl:types />
+  <wsdl:service name="Spec">
+    <wsdl:port name="Config1Port" binding="p0:Config1Binding">
+      <address location="http://cloud04ap.nubilum.nl:50000/Spec/Config1?style=document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

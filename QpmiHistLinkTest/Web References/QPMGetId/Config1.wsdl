@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="urn:IdPWsd" xmlns:p0="urn:IdPWsd/Config1" targetNamespace="urn:IdPWsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="urn:IdPWsd/Config1" location="https://cloud04ap.nubilum.nl:8443/IdP/Config1?wsdl=binding&amp;style=document" />
+  <wsdl:types />
+  <wsdl:service name="IdP">
+    <wsdl:port name="Config1Port" binding="p0:Config1Binding">
+      <address location="https://cloud04.nubilum.nl:8443/IdP/Config1?style=document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

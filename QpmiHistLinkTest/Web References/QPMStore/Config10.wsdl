@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="urn:RAWsd" xmlns:p0="urn:RAWsd/Config1" targetNamespace="urn:RAWsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="urn:RAWsd/Config1" location="https://cloud04ap.nubilum.nl:8443/RA2/Config1?wsdl=binding&amp;style=document" />
+  <wsdl:types />
+  <wsdl:service name="RA2">
+    <wsdl:port name="Config1Port" binding="p0:Config1Binding">
+      <address location="https://https://cloud04.nubilum.nl:8443/RA2/Config1?style=document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

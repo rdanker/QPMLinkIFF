@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:prt0="urn:SpecWsd/SpecVi" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="urn:SpecWsd/Config1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="urn:SpecWsd/SpecVi" location="https://cloud04ap.nubilum.nl:8443/Spec/Config1?wsdl=interface&amp;style=document" />
+  <wsdl:types />
+  <wsdl:binding name="Config1Binding" type="prt0:SpecVi">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add">
+      <soap:operation soapAction="" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLatest">
+      <soap:operation soapAction="" />
+      <wsdl:input>
+        <soap:body use="literal" parts="parameters" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

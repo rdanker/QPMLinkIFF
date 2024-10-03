@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="urn:SpecWsd/SpecVi" xmlns:ns0="urn:SpecVi" targetNamespace="urn:SpecWsd/SpecVi" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="urn:java/lang" elementFormDefault="qualified" targetNamespace="urn:java/lang" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="ArrayOfString">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="String" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema xmlns:tns="urn:SpecVi" xmlns:s0="urn:java/lang" elementFormDefault="qualified" targetNamespace="urn:SpecVi" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="urn:java/lang" />
+      <xs:element name="add">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="depPropId" type="xs:int" />
+            <xs:element name="depPropValue" nillable="true" type="xs:string" />
+            <xs:element name="propNameId" type="xs:int" />
+            <xs:element name="tsNameId" type="xs:int" />
+            <xs:element name="start" nillable="true" type="xs:string" />
+            <xs:element name="lil" type="xs:double" />
+            <xs:element name="lsl" type="xs:double" />
+            <xs:element name="lcl" type="xs:double" />
+            <xs:element name="target" type="xs:double" />
+            <xs:element name="ucl" type="xs:double" />
+            <xs:element name="usl" type="xs:double" />
+            <xs:element name="uil" type="xs:double" />
+            <xs:element name="sampleSize" type="xs:int" />
+            <xs:element name="status" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="addResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getLatest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="depPropId" type="xs:int" />
+            <xs:element name="depPropValue" nillable="true" type="xs:string" />
+            <xs:element name="propNameId" type="xs:int" />
+            <xs:element name="tsNameId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getLatestResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="s0:ArrayOfString" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="addIn_doc">
+    <wsdl:part name="parameters" element="ns0:add" />
+  </wsdl:message>
+  <wsdl:message name="addOut_doc">
+    <wsdl:part name="parameters" element="ns0:addResponse" />
+  </wsdl:message>
+  <wsdl:message name="getLatestIn_doc">
+    <wsdl:part name="parameters" element="ns0:getLatest" />
+  </wsdl:message>
+  <wsdl:message name="getLatestOut_doc">
+    <wsdl:part name="parameters" element="ns0:getLatestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SpecVi">
+    <wsdl:operation name="add">
+      <wsdl:input message="tns:addIn_doc" />
+      <wsdl:output message="tns:addOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getLatest">
+      <wsdl:input message="tns:getLatestIn_doc" />
+      <wsdl:output message="tns:getLatestOut_doc" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

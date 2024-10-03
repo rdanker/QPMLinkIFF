@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="urn:IdPWsd/IdPVi" xmlns:ns0="urn:IdPVi" targetNamespace="urn:IdPWsd/IdPVi" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="urn:java/lang" elementFormDefault="qualified" targetNamespace="urn:java/lang" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="ArrayOfint">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="int" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfString">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="String" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema xmlns:tns="urn:IdPVi" xmlns:s0="urn:java/lang" elementFormDefault="qualified" targetNamespace="urn:IdPVi" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="urn:java/lang" />
+      <xs:element name="getImplicitId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="varId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImplicitIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImplicitIds">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="varIds" nillable="true" type="s0:ArrayOfint" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImplicitIdsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="s0:ArrayOfint" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getProcessId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="alias" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getProcessIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getProcessIds">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="aliases" nillable="true" type="s0:ArrayOfString" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getProcessIdsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="s0:ArrayOfint" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPropId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="alias" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPropIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPropIds">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="aliases" nillable="true" type="s0:ArrayOfString" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPropIdsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="s0:ArrayOfint" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPropVarId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="alias" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPropVarIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPropVarIds">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="aliases" nillable="true" type="s0:ArrayOfString" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPropVarIdsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="s0:ArrayOfint" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getVarId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="alias" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getVarIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getVarIds">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mandant" type="xs:int" />
+            <xs:element name="processId" type="xs:int" />
+            <xs:element name="aliases" nillable="true" type="s0:ArrayOfString" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getVarIdsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="s0:ArrayOfint" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getMessage">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getMessageResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getImplicitIdIn_doc">
+    <wsdl:part name="parameters" element="ns0:getImplicitId" />
+  </wsdl:message>
+  <wsdl:message name="getImplicitIdOut_doc">
+    <wsdl:part name="parameters" element="ns0:getImplicitIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getImplicitIdsIn_doc">
+    <wsdl:part name="parameters" element="ns0:getImplicitIds" />
+  </wsdl:message>
+  <wsdl:message name="getImplicitIdsOut_doc">
+    <wsdl:part name="parameters" element="ns0:getImplicitIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProcessIdIn_doc">
+    <wsdl:part name="parameters" element="ns0:getProcessId" />
+  </wsdl:message>
+  <wsdl:message name="getProcessIdOut_doc">
+    <wsdl:part name="parameters" element="ns0:getProcessIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProcessIdsIn_doc">
+    <wsdl:part name="parameters" element="ns0:getProcessIds" />
+  </wsdl:message>
+  <wsdl:message name="getProcessIdsOut_doc">
+    <wsdl:part name="parameters" element="ns0:getProcessIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPropIdIn_doc">
+    <wsdl:part name="parameters" element="ns0:getPropId" />
+  </wsdl:message>
+  <wsdl:message name="getPropIdOut_doc">
+    <wsdl:part name="parameters" element="ns0:getPropIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPropIdsIn_doc">
+    <wsdl:part name="parameters" element="ns0:getPropIds" />
+  </wsdl:message>
+  <wsdl:message name="getPropIdsOut_doc">
+    <wsdl:part name="parameters" element="ns0:getPropIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPropVarIdIn_doc">
+    <wsdl:part name="parameters" element="ns0:getPropVarId" />
+  </wsdl:message>
+  <wsdl:message name="getPropVarIdOut_doc">
+    <wsdl:part name="parameters" element="ns0:getPropVarIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPropVarIdsIn_doc">
+    <wsdl:part name="parameters" element="ns0:getPropVarIds" />
+  </wsdl:message>
+  <wsdl:message name="getPropVarIdsOut_doc">
+    <wsdl:part name="parameters" element="ns0:getPropVarIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getVarIdIn_doc">
+    <wsdl:part name="parameters" element="ns0:getVarId" />
+  </wsdl:message>
+  <wsdl:message name="getVarIdOut_doc">
+    <wsdl:part name="parameters" element="ns0:getVarIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getVarIdsIn_doc">
+    <wsdl:part name="parameters" element="ns0:getVarIds" />
+  </wsdl:message>
+  <wsdl:message name="getVarIdsOut_doc">
+    <wsdl:part name="parameters" element="ns0:getVarIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMessageIn_doc">
+    <wsdl:part name="parameters" element="ns0:getMessage" />
+  </wsdl:message>
+  <wsdl:message name="getMessageOut_doc">
+    <wsdl:part name="parameters" element="ns0:getMessageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IdPVi">
+    <wsdl:operation name="getImplicitId">
+      <wsdl:input message="tns:getImplicitIdIn_doc" />
+      <wsdl:output message="tns:getImplicitIdOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getImplicitIds">
+      <wsdl:input message="tns:getImplicitIdsIn_doc" />
+      <wsdl:output message="tns:getImplicitIdsOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getProcessId">
+      <wsdl:input message="tns:getProcessIdIn_doc" />
+      <wsdl:output message="tns:getProcessIdOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getProcessIds">
+      <wsdl:input message="tns:getProcessIdsIn_doc" />
+      <wsdl:output message="tns:getProcessIdsOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getPropId">
+      <wsdl:input message="tns:getPropIdIn_doc" />
+      <wsdl:output message="tns:getPropIdOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getPropIds">
+      <wsdl:input message="tns:getPropIdsIn_doc" />
+      <wsdl:output message="tns:getPropIdsOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getPropVarId">
+      <wsdl:input message="tns:getPropVarIdIn_doc" />
+      <wsdl:output message="tns:getPropVarIdOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getPropVarIds">
+      <wsdl:input message="tns:getPropVarIdsIn_doc" />
+      <wsdl:output message="tns:getPropVarIdsOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getVarId">
+      <wsdl:input message="tns:getVarIdIn_doc" />
+      <wsdl:output message="tns:getVarIdOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getVarIds">
+      <wsdl:input message="tns:getVarIdsIn_doc" />
+      <wsdl:output message="tns:getVarIdsOut_doc" />
+    </wsdl:operation>
+    <wsdl:operation name="getMessage">
+      <wsdl:input message="tns:getMessageIn_doc" />
+      <wsdl:output message="tns:getMessageOut_doc" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

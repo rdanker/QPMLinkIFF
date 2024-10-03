@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings Test="">
+
+<!-- 192.168.2.20 -->
+
+    <iHistorian ConnectionString="Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read" Enabled="N">
+       <Data Alias="?" Tag="rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv" Type="Int64"/>
+       <Data Alias="?" Tag="rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv" Type="Int64"/>
+    </iHistorian>
+
+</Settings>

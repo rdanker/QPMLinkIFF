@@ -1,0 +1,69 @@
+21-01-11 13:23:13 (info)    Software version 1.0.0.0
+21-01-11 13:23:13 (info)    Prgram start ------------------------------------------------------
+21-01-11 13:23:14 (info)    <parameters>
+21-01-11 13:23:14 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+21-01-11 13:23:14 (info)    Enabled = N
+21-01-11 13:23:39 (info)    Software version 1.0.0.0
+21-01-11 13:23:39 (info)    Prgram start ------------------------------------------------------
+21-01-11 13:23:39 (info)    <parameters>
+21-01-11 13:23:39 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+21-01-11 13:23:39 (info)    Enabled = N
+21-01-11 13:24:04 (info)    Software version 1.0.0.0
+21-01-11 13:24:04 (info)    Prgram start ------------------------------------------------------
+21-01-11 13:24:04 (info)    <parameters>
+21-01-11 13:24:04 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+21-01-11 13:24:04 (info)    Enabled = N
+21-01-11 13:25:05 (info)    Software version 1.0.0.0
+21-01-11 13:25:05 (info)    Prgram start ------------------------------------------------------
+21-01-11 13:25:05 (info)    <parameters>
+21-01-11 13:25:05 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+21-01-11 13:25:05 (info)    Enabled = N
+21-01-11 19:47:59 (info)    Software version 1.0.0.0
+21-01-11 19:48:00 (info)    Prgram start ------------------------------------------------------
+21-01-11 19:48:05 (info)    <parameters>
+21-01-11 19:48:06 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+21-01-11 19:48:08 (info)    Enabled = N
+21-01-11 19:53:45 (info)    Software version 1.0.0.0
+21-01-11 19:53:45 (info)    Prgram start ------------------------------------------------------
+21-01-11 19:53:47 (info)    <parameters>
+21-01-11 19:53:48 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=DAQ-APP-PRD01;Mode=Read
+21-01-11 19:53:49 (info)    Enabled = Y
+21-01-11 20:01:02 (info)    Software version 1.0.0.0
+21-01-11 20:01:02 (info)    Prgram start ------------------------------------------------------
+21-01-11 20:01:03 (info)    <parameters>
+21-01-11 20:01:04 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=DAQ-APP-PRD01;Mode=Read
+21-01-11 20:01:05 (info)    Enabled = Y
+21-01-11 20:05:40 (info)    Software version 1.0.0.0
+21-01-11 20:05:41 (info)    Prgram start ------------------------------------------------------
+21-01-11 20:05:42 (info)    <parameters>
+21-01-11 20:05:42 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;Data Source=DAQ-APP-PRD01;Mode=Read
+21-01-11 20:05:43 (info)    Enabled = Y
+21-01-11 20:15:07 (info)    Software version 1.0.0.0
+21-01-11 20:15:08 (info)    Prgram start ------------------------------------------------------
+21-01-11 20:15:13 (info)    <parameters>
+21-01-11 20:15:14 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;Data Source=DAQ-APP-PRD01;Mode=Read;
+21-01-11 20:16:37 (info)    Software version 1.0.0.0
+21-01-11 20:16:38 (info)    Prgram start ------------------------------------------------------
+21-01-11 20:16:40 (info)    <parameters>
+21-01-11 20:16:41 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;Data Source=DAQ-APP-PRD01;Mode=Read;
+21-01-11 20:16:56 (info)    Enabled = Y
+21-01-11 20:31:09 (info)    Software version 1.0.0.0
+21-01-11 20:31:10 (info)    Prgram start ------------------------------------------------------
+21-01-11 20:31:11 (info)    <parameters>
+21-01-11 20:31:11 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;Data Source=DAQ-APP-PRD01;Mode=Read;
+21-01-11 20:31:12 (info)    Enabled = Y
+21-01-11 20:50:57 (info)    Software version 1.0.0.0
+21-01-11 20:50:58 (info)    Prgram start ------------------------------------------------------
+21-01-11 20:50:59 (info)    <parameters>
+21-01-11 20:51:00 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;Data Source=DAQ-APP-PRD01;Mode=Read;
+21-01-11 20:51:03 (info)    Enabled = Y
+21-01-11 20:53:04 (info)    Software version 1.0.0.0
+21-01-11 20:53:04 (info)    Prgram start ------------------------------------------------------
+21-01-11 20:53:05 (info)    <parameters>
+21-01-11 20:53:06 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;Data Source=DAQ-APP-PRD01;Mode=Read;
+21-01-11 20:53:06 (info)    Enabled = Y
+21-01-11 20:59:03 (info)    Software version 1.0.0.0
+21-01-11 20:59:04 (info)    Prgram start ------------------------------------------------------
+21-01-11 20:59:08 (info)    <parameters>
+21-01-11 20:59:09 (info)    Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;Data Source=DAQ-APP-PRD01;Mode=Read;
+21-01-11 20:59:10 (info)    Enabled = Y

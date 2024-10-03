@@ -1,0 +1,197 @@
+12-11-26 12:38:06 (info)    Software version 1.0.0.0
+12-11-26 12:38:06 (info)    Prgram start ------------------------------------------------------
+12-11-26 12:38:06 (info)    <parameters>
+12-11-26 12:38:06 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 12:38:06 (info)    Enabled = N
+12-11-26 12:38:06 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Int16)
+12-11-26 12:38:06 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Int16)
+12-11-26 12:38:06 (info)    <end of parameters>
+12-11-26 12:38:08 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:38:08
+12-11-26 12:38:08 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 39
+12-11-26 12:38:08 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 41
+12-11-26 12:38:10 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:38:10
+12-11-26 12:38:10 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 1
+12-11-26 12:38:10 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 84
+12-11-26 12:38:11 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:38:11
+12-11-26 12:38:11 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 4
+12-11-26 12:38:11 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 35
+12-11-26 12:38:12 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:38:12
+12-11-26 12:38:12 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 54
+12-11-26 12:38:12 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 39
+12-11-26 12:38:12 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:38:12
+12-11-26 12:38:12 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 81
+12-11-26 12:38:12 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 63
+12-11-26 12:38:12 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:38:12
+12-11-26 12:38:12 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 43
+12-11-26 12:38:12 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 7
+12-11-26 12:38:13 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:38:13
+12-11-26 12:38:13 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 83
+12-11-26 12:38:13 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 83
+12-11-26 12:53:22 (info)    Software version 1.0.0.0
+12-11-26 12:53:22 (info)    Prgram start ------------------------------------------------------
+12-11-26 12:53:22 (info)    <parameters>
+12-11-26 12:53:22 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 12:53:22 (info)    Enabled = N
+12-11-26 12:53:22 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Int16)
+12-11-26 12:53:22 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Int16)
+12-11-26 12:53:22 (info)    <end of parameters>
+12-11-26 12:53:23 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:53:23
+12-11-26 12:53:23 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 63
+12-11-26 12:53:24 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 47
+12-11-26 12:53:25 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:53:25
+12-11-26 12:53:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 99
+12-11-26 12:53:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 65
+12-11-26 12:53:25 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:53:25
+12-11-26 12:53:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 0
+12-11-26 12:53:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 52
+12-11-26 12:53:25 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:53:25
+12-11-26 12:53:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 41
+12-11-26 12:53:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 34
+12-11-26 12:53:26 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:53:26
+12-11-26 12:53:26 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 78
+12-11-26 12:53:26 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 27
+12-11-26 12:53:26 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:53:26
+12-11-26 12:53:26 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 62
+12-11-26 12:53:26 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 55
+12-11-26 12:53:26 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:53:26
+12-11-26 12:53:26 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 30
+12-11-26 12:53:26 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 62
+12-11-26 12:53:26 (info)    ------ Scan action (SIMULATION) 26/11/2012 12:53:26
+12-11-26 12:53:26 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 10
+12-11-26 12:53:26 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 68
+12-11-26 13:24:24 (info)    Software version 1.0.0.0
+12-11-26 13:24:24 (info)    Prgram start ------------------------------------------------------
+12-11-26 13:24:24 (info)    <parameters>
+12-11-26 13:24:24 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 13:24:24 (info)    Enabled = N
+12-11-26 13:24:24 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Int16)
+12-11-26 13:24:24 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Int16)
+12-11-26 13:24:24 (info)    <end of parameters>
+12-11-26 13:24:25 (info)    ------ Scan action (SIMULATION) 26/11/2012 13:24:25
+12-11-26 13:24:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 25
+12-11-26 13:24:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 62
+12-11-26 13:56:50 (info)    Software version 1.0.0.0
+12-11-26 13:56:50 (info)    Prgram start ------------------------------------------------------
+12-11-26 13:56:50 (info)    <parameters>
+12-11-26 13:56:50 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 13:56:50 (info)    Enabled = N
+12-11-26 13:56:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 13:56:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 13:56:50 (info)    <end of parameters>
+12-11-26 13:56:52 (info)    ------ Scan action (SIMULATION) 26/11/2012 13:56:52
+12-11-26 13:56:52 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 81
+12-11-26 13:56:52 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 40
+12-11-26 13:56:58 (info)    ------ Scan action (SIMULATION) 26/11/2012 13:56:58
+12-11-26 13:56:58 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 34
+12-11-26 13:56:58 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 78
+12-11-26 13:56:59 (info)    ------ Scan action (SIMULATION) 26/11/2012 13:56:59
+12-11-26 13:56:59 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 55
+12-11-26 13:56:59 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 29
+12-11-26 13:57:00 (info)    ------ Scan action (SIMULATION) 26/11/2012 13:57:00
+12-11-26 13:57:00 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 77
+12-11-26 13:57:00 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 72
+12-11-26 14:37:54 (info)    Software version 1.0.0.0
+12-11-26 14:37:54 (info)    Prgram start ------------------------------------------------------
+12-11-26 14:37:54 (info)    <parameters>
+12-11-26 14:37:54 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 14:37:54 (info)    Enabled = N
+12-11-26 14:37:54 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 14:37:54 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 14:37:54 (info)    <end of parameters>
+12-11-26 14:37:56 (info)    ------ Scan action (SIMULATION) 26/11/2012 14:37:56
+12-11-26 14:37:56 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 62
+12-11-26 14:37:56 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 37
+12-11-26 14:37:58 (info)    ------ Scan action (SIMULATION) 26/11/2012 14:37:58
+12-11-26 14:37:58 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 25
+12-11-26 14:37:58 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 61
+12-11-26 14:38:06 (info)    Software version 1.0.0.0
+12-11-26 14:38:06 (info)    Prgram start ------------------------------------------------------
+12-11-26 14:38:06 (info)    <parameters>
+12-11-26 14:38:06 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 14:38:06 (info)    Enabled = N
+12-11-26 14:38:06 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 14:38:06 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 14:38:06 (info)    <end of parameters>
+12-11-26 14:47:01 (info)    Software version 1.0.0.0
+12-11-26 14:47:01 (info)    Prgram start ------------------------------------------------------
+12-11-26 14:47:01 (info)    <parameters>
+12-11-26 14:47:01 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 14:47:01 (info)    Enabled = N
+12-11-26 14:47:01 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 14:47:01 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 14:47:01 (info)    <end of parameters>
+12-11-26 14:47:15 (info)    Software version 1.0.0.0
+12-11-26 14:47:15 (info)    Prgram start ------------------------------------------------------
+12-11-26 14:47:15 (info)    <parameters>
+12-11-26 14:47:15 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 14:47:15 (info)    Enabled = N
+12-11-26 14:47:15 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 14:47:15 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 14:47:15 (info)    <end of parameters>
+12-11-26 15:04:44 (info)    Software version 1.0.0.0
+12-11-26 15:04:44 (info)    Prgram start ------------------------------------------------------
+12-11-26 15:04:44 (info)    <parameters>
+12-11-26 15:04:44 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 15:04:44 (info)    Enabled = N
+12-11-26 15:04:44 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 15:04:44 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 15:04:44 (info)    <end of parameters>
+12-11-26 15:04:46 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:04:46
+12-11-26 15:04:46 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 37
+12-11-26 15:04:46 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 5
+12-11-26 15:04:49 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:04:49
+12-11-26 15:04:49 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 76
+12-11-26 15:04:49 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 22
+12-11-26 15:04:49 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:04:49
+12-11-26 15:04:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 5
+12-11-26 15:04:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 2
+12-11-26 15:04:50 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:04:50
+12-11-26 15:04:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 5
+12-11-26 15:04:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 22
+12-11-26 15:04:50 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:04:50
+12-11-26 15:04:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 31
+12-11-26 15:04:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 37
+12-11-26 15:04:50 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:04:50
+12-11-26 15:04:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 63
+12-11-26 15:04:50 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 45
+12-11-26 15:04:51 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:04:51
+12-11-26 15:04:51 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 71
+12-11-26 15:04:51 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 71
+12-11-26 15:05:07 (info)    Software version 1.0.0.0
+12-11-26 15:05:07 (info)    Prgram start ------------------------------------------------------
+12-11-26 15:05:07 (info)    <parameters>
+12-11-26 15:05:07 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 15:05:07 (info)    Enabled = N
+12-11-26 15:05:07 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 15:05:07 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int16)
+12-11-26 15:05:07 (info)    <end of parameters>
+12-11-26 15:06:00 (info)    Software version 1.0.0.0
+12-11-26 15:06:00 (info)    Prgram start ------------------------------------------------------
+12-11-26 15:06:00 (info)    <parameters>
+12-11-26 15:06:00 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 15:06:00 (info)    Enabled = N
+12-11-26 15:06:00 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int32)
+12-11-26 15:06:00 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int32)
+12-11-26 15:06:00 (info)    <end of parameters>
+12-11-26 15:06:02 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:06:02
+12-11-26 15:06:02 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 78
+12-11-26 15:06:02 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 59
+12-11-26 15:23:24 (info)    Software version 1.0.0.0
+12-11-26 15:23:24 (info)    Prgram start ------------------------------------------------------
+12-11-26 15:23:24 (info)    <parameters>
+12-11-26 15:23:24 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 15:23:24 (info)    Enabled = N
+12-11-26 15:23:24 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int32)
+12-11-26 15:23:24 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int32)
+12-11-26 15:23:24 (info)    <end of parameters>
+12-11-26 15:23:25 (info)    ------ Scan action (SIMULATION) 26/11/2012 15:23:25
+12-11-26 15:23:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 39
+12-11-26 15:23:25 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08 = 5
+12-11-26 15:24:00 (info)    Software version 1.0.0.0
+12-11-26 15:24:00 (info)    Prgram start ------------------------------------------------------
+12-11-26 15:24:00 (info)    <parameters>
+12-11-26 15:24:00 (info)    Provider=IhOLEDB.iHistorian.1;Persist Security Info=False;User ID=;Data Source=iHistorian;Mode=Read
+12-11-26 15:24:00 (info)    Enabled = N
+12-11-26 15:24:00 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv (Unknown/sim., Int64)
+12-11-26 15:24:00 (info)    ?                       rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv (Unknown/sim., Int64)
+12-11-26 15:24:00 (info)    <end of parameters>

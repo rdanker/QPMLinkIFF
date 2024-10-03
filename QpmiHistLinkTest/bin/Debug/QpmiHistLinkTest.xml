@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings Test="">
+
+    <iHistorian ConnectionString="Provider=iHOLEDB.iHistorian.1;Persist Security Info=False;Data Source=DAQ-APP-PRD01;Mode=Read;"/>
+
+	<iHistorianTags>
+		<Data Alias="?" Tag="rodekeuken.rodekeuken.sc_unif1.rs-ai_08t321_01-egu.f_cv" Type="Int64"/>
+      		<Data Alias="?" Tag="rodekeuken.rodekeuken.sc_unif1.rs-ai_08t322_01-egu.f_cv" Type="Int64"/>
+	</iHistorianTags>
+
+</Settings>
